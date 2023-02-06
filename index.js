@@ -12,6 +12,10 @@ const Legend = () => (
     Configure your chatbot landing page, in this way your bot can be indexed by search engine.<br/>
     Setup the hero section (the big paragraphs at the top), the preview prompts (the user and bot sentences inside the pphone preview),
     the links to open the chatbot in the platforms and the features list.
+    <br />
+    <b>
+      The landing page URL is <code>http://mybotaddress.com/home</code> or <code>http://localhost:1880/home</code>.
+    </b>
   </div>
 );
 
