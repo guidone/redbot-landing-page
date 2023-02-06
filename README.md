@@ -7,6 +7,8 @@ Create a landing page for your chatbot with few clicks:
 
 Open **Mission Control** and add a title, a few eye-catching lines to describe your bot, some prompts as an example of conversation with it and, if you want, a full list of features. All without writing a single line of HTML code.
 
+The landing page URL is `http://mybotaddress.com/home` or `http://localhost:1880/home`.
+
 **Changelog**
 
 - _1.0.0_ Initial version
