@@ -4,7 +4,7 @@
       "type": "subflow",
       "name": "Landing Page",
       "info": "You've created a wonderful chatbot, but no one can find it on the search engines? **That's because you don't have a landing page.**\nCreate a landing page for your chatbot with few clicks:\n\n---\n\n![Landing page](https://dashboard.red-bot.io/assets/02434325-cc36-4b5b-8b95-005ccaa3b579)\n\nOpen **Mission Control** and add a title, a few eye-catching lines to describe your bot, some prompts as an example of conversation with it and, if you want, a full list of features. All without writing a single line of HTML code.\n\n**Changelog**\n\n- _1.0.0_ Initial version\n\n",
-      "category": "RedBot",
+      "category": "RedBot Flow",
       "in": [],
       "out": [],
       "env": [],
