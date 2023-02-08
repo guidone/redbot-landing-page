@@ -6,6 +6,7 @@ import { Content, withConfigurationPage } from '../../src/components';
 const { Contents } = Content;
 
 import ConfigurationForm from './views/configuration-form';
+import PreviewPage from './views/preview';
 
 const Legend = () => (
   <div>
@@ -19,17 +20,17 @@ const Legend = () => (
   </div>
 );
 
-
 plug(
   'sidebar',
   null,
   {
     id: 'landing-page',
     label: 'Landing page',
-    icon: 'file-text',
+    icon: 'file-code-o',
     options: [
       { label: 'Configuration', url: '/landing-page/configuration', id: 'landing-page-configuration' },
-      { label: 'Features', url: '/landing-page/features', id: 'landing-page-features' }
+      { label: 'Features', url: '/landing-page/features', id: 'landing-page-features' },
+      { label: 'Preview', url: '/landing-page/preview', id: 'landing-page-preview' }
     ]
   }
 );
@@ -55,6 +56,16 @@ plug(
   {
     permission: 'configure',
     url: '/landing-page/configuration',
+    title: 'Landing page configuration',
+    id: 'landing-page-configuration'
+  }
+);
+plug(
+  'pages',
+  PreviewPage,
+  {
+    permission: 'configure',
+    url: '/landing-page/preview',
     title: 'Landing page configuration',
     id: 'landing-page-configuration'
   }
