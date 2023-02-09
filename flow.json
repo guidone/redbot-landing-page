@@ -3,7 +3,7 @@
       "id": "c9746dfe79bd4b6c",
       "type": "subflow",
       "name": "Landing Page",
-      "info": "You've created a wonderful chatbot, but no one can find it on the search engines? **That's because you don't have a landing page.**\nCreate a landing page for your chatbot with few clicks:\n\n![Landing page](https://dashboard.red-bot.io/assets/02434325-cc36-4b5b-8b95-005ccaa3b579)\n\nOpen **Mission Control** and add a title, a few eye-catching lines to describe your bot, some prompts as an example of conversation with it and, if you want, a full list of features. All without writing a single line of HTML code.\n\nThe landing page URL is `http://mybotaddress.com/home` or `http://localhost:1880/home`. \n\n**Changelog**\n- _1.1.0_ Added preview page\n- _1.0.1_ Added link to configuration panel\n- _1.0.0_ Initial version\n\n\n\n",
+      "info": "You've created a wonderful chatbot, but no one can find it on the search engines? **That's because you don't have a landing page.**\nCreate a landing page for your chatbot with few clicks:\n\n![Landing page](https://dashboard.red-bot.io/assets/02434325-cc36-4b5b-8b95-005ccaa3b579)\n\nOpen **Mission Control** and add a title, a few eye-catching lines to describe your bot, some prompts as an example of conversation with it and, if you want, a full list of features. All without writing a single line of HTML code.\n\nThe landing page URL is `http://mybotaddress.com/home` or `http://localhost:1880/home`. \n\n**Changelog**\n- _1.1.1_ Fixed crash of preview page\n- _1.1.0_ Added preview page\n- _1.0.1_ Added link to configuration panel\n- _1.0.0_ Initial version\n",
       "category": "RedBot Flows",
       "in": [],
       "out": [],
@@ -11,7 +11,7 @@
       "meta": {
           "module": "landing-page",
           "type": "landing-page",
-          "version": "1.1.0",
+          "version": "1.1.1",
           "author": "Guido Bellomo <guido.bellomo@gmail.com>",
           "desc": "Create a landing page for the chatbot",
           "keywords": "landing,page,chatbot,redbot",

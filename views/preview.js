@@ -1,8 +1,10 @@
 import React from 'react';
 
-import { PageContainer, Breadcrumbs, HelpElements } from '../../../src/components';
+import { Tag } from 'rsuite';
+import { PageContainer, Breadcrumbs } from '../../../src/components';
 
-const { NodeRedUrl } = HelpElements;
+// for retro-compatibility, remove after 1.22
+const NodeRedUrl = ({ children }) => <Tag style={{ backgroundColor: '#3399AA', color: '#ffffff', fontSize: '14px' }}>{children}</Tag>;;
 
 const PreviewPage = () => {
   return (
